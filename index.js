@@ -25,11 +25,6 @@ function init() {
       setActiveSlideById(getNextId());
     }
   });
-  document
-    .querySelector(".gallery__slides")
-    .addEventListener("touchend", function (event) {
-      setActiveSlideById(getNextId());
-    });
 }
 
 function setActiveSlideById(id) {
